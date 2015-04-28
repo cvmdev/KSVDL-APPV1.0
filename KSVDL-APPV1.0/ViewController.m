@@ -14,6 +14,14 @@
 
 @implementation ViewController
 
+-(IBAction)Button:(id)sender{
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.ksvdl.org/tests.html"]];
+}
+
+-(IBAction)Button2:(id)sender{
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://www.youtube.com/channel/UCtx-lIIXqj5PAMQYryXaRhA/feed"]];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.

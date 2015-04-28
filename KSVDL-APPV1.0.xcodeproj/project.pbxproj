@@ -63,7 +63,7 @@
 		CDFECE931AEE7F6E0038DA62 = {
 			isa = PBXGroup;
 			children = (
-				CDFECE9E1AEE7F6E0038DA62 /* KSVDL-APPV1.0 */,
+				CDFECE9E1AEE7F6E0038DA62 /* KSVDL Mobile App */,
 				CDFECEB81AEE7F6E0038DA62 /* KSVDL-APPV1.0Tests */,
 				CDFECE9D1AEE7F6E0038DA62 /* Products */,
 			);
@@ -78,7 +78,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CDFECE9E1AEE7F6E0038DA62 /* KSVDL-APPV1.0 */ = {
+		CDFECE9E1AEE7F6E0038DA62 /* KSVDL Mobile App */ = {
 			isa = PBXGroup;
 			children = (
 				CDFECEA31AEE7F6E0038DA62 /* AppDelegate.h */,
@@ -90,6 +90,7 @@
 				CDFECEAE1AEE7F6E0038DA62 /* LaunchScreen.xib */,
 				CDFECE9F1AEE7F6E0038DA62 /* Supporting Files */,
 			);
+			name = "KSVDL Mobile App";
 			path = "KSVDL-APPV1.0";
 			sourceTree = "<group>";
 		};
@@ -346,6 +347,7 @@
 				INFOPLIST_FILE = "KSVDL-APPV1.0/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -356,6 +358,7 @@
 				INFOPLIST_FILE = "KSVDL-APPV1.0/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
